@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+html{
+  background-color: rgba(0, 0, 0, 0.901);
+}
+/* header css */
+h1{
+  color:azure;
+ 
+}
+/* home css */
+.search-bar-container{
+  margin-bottom: 4rem;
+}
+.input-style{
+  width: 15.5rem;
+  height: 1.5rem;
+  margin:0.5rem;
+  border-radius: 0.8rem;
+}
+.btn{
+  width:5.5rem;
+  height: 1.9rem;
+  border-radius: 0.8rem;
+}
+.btn:hover{
+  background-color: blanchedalmond;
+}
+.cards-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.8rem;
+}
+/* card css */
+.cards{
+  width: 300px;
+  background-color:rgb(94, 78, 59);
+  border-radius: 1.4rem ;
+  
+}
+img{
+  width:300px;
+  border-radius: 1.4rem  1.4rem 0 0
+  
+}
+
+.description{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap:0.2rem;
+}
+.movie-title,
+.movie-type,
+.movie-class,
+.movie-duration{
+  color:azure;
+}
+
+/* footer css */
+
