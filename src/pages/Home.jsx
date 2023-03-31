@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { api } from "../Lib/Api";
 import { Cards } from "../components/Cards";
-import { Header } from "../components/header";
+import { Header } from "../components/Header";
 
 export function Home() {
   const [movies, setMovies] = useState([]);
