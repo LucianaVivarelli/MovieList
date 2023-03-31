@@ -25,9 +25,13 @@ h1{
   width:5.5rem;
   height: 1.9rem;
   border-radius: 0.8rem;
+  background-color: rgb(41, 10, 10);
+  color: white;
 }
 .btn:hover{
-  background-color: blanchedalmond;
+  background-color:rgb(94, 78, 59);
+  color: rgb(168, 165, 165);
+  
 }
 .cards-container{
   display: flex;
@@ -60,6 +64,16 @@ img{
 .movie-class,
 .movie-duration{
   color:azure;
+}
+
+.btn-befor,
+.btn-next{
+  width:10rem;
+  height: 2rem;
+  margin: 1.5rem;
+  background-color: rgb(41, 10, 10);
+  color: white;
+  
 }
 
 /* footer css */
