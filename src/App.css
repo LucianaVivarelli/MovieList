@@ -9,6 +9,9 @@ html{
 /* header css */
 h1{
   color:azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  
  
 }
 /* home css */
@@ -17,20 +20,25 @@ h1{
 }
 .input-style{
   width: 15.5rem;
-  height: 1.5rem;
-  margin:0.5rem;
-  border-radius: 0.8rem;
-}
-.btn{
-  width:5.5rem;
   height: 1.9rem;
+  margin:0.5rem;
+  border-color: black;
+  border-radius: 0.8rem;
+  background-color:rgb(94, 78, 59);
+  color:white;
+}
+
+.btn{
+  width:8rem;
+  height: 1.9rem;
+  margin:0.5rem;
   border-radius: 0.8rem;
   background-color: rgb(41, 10, 10);
   color: white;
 }
 .btn:hover{
-  background-color:rgb(94, 78, 59);
-  color: rgb(168, 165, 165);
+  background-color:rgb(249, 247, 245);
+  color:  rgb(41, 10, 10);
   
 }
 .cards-container{
@@ -55,15 +63,27 @@ img{
 
 .description{
   display: flex;
-  align-items: center;
+  align-items:flex-start;
   flex-direction: column;
-  gap:0.2rem;
+  
+  gap:0.5rem;
+  padding: 1.5rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.first-title{
+  color:rgb(240, 241, 241);
+  font-weight: bold;
+}
+.movie-title,
+.movie-type{
+  text-align: start;
 }
 .movie-title,
 .movie-type,
 .movie-class,
 .movie-duration{
-  color:azure;
+  color:rgb(136, 134, 133);
+ margin:0.1rem;
 }
 
 .btn-befor,
@@ -73,6 +93,19 @@ img{
   margin: 1.5rem;
   background-color: rgb(41, 10, 10);
   color: white;
+  border-radius: 0.8rem;
+  
+}
+.btn-befor:hover{
+  background-color:rgb(249, 247, 245);
+  color:  rgb(41, 10, 10);
+  
+}
+
+.btn-next:hover{
+  background-color:rgb(249, 247, 245);
+  color:  rgb(41, 10, 10);
+  
   
 }
 

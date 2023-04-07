@@ -48,7 +48,7 @@ export function Home() {
     <div className="home">
       <Header />
       <div className="search-bar-container">
-        <input className="input-style" type="text" value={searchTerm} onChange={handleSearchInputChange} />
+        <input className="input-style" type="text" value={searchTerm} placeholder="Digite um filme ou Ator(a)" onChange={handleSearchInputChange} />
         <button className="btn" onClick={handleSearch}>Buscar</button>
       </div>
       <div className="cards-container">

@@ -8,12 +8,12 @@ export const Cards = ({ movie }) => {
           <img src={img_link} alt="movie-photo" />
         </div>
         <div className="description">
-          <span className="movie-title">{name}</span>
+          <h4 className="movie-title"><span className="first-title">Filme:</span> {name}</h4>
        
-          <span className="movie-type">Genero:{genre}</span>
+          <p className="movie-type"><span className="first-title">Gênero:</span> {genre}</p>
        
-          <span className="movie-class">{imdb_rating}</span>
-          <span className="movie-duration">{duration} min</span>
+          <p className="movie-class"><span className="first-title">Pontuação:</span> {imdb_rating}</p>
+          <p className="movie-duration"><span className="first-title">Duração:</span> {duration} min</p>
         </div>
       </div>
    
