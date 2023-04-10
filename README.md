@@ -12,7 +12,7 @@ Projeto com o foco de praticar o consumo de api e hooks no React
 
 ![image](https://user-images.githubusercontent.com/96242187/230741441-5945ac75-da8b-4099-b76d-27811ed7a49f.png)
 
-<p> ainda falta ajeitar umas pequenas estilizações como placeholder e fontes</p>
+<p> ainda falta ajeitar umas pequenas estilizações como placeholder e fontes.</p>
 <h1>Instruções para rodar o projeto React/Vite</h1>
 	<h2>Pré-requisitos</h2>
 	<p>Antes de começar, é necessário ter instalado em seu sistema as seguintes ferramentas:</p>
